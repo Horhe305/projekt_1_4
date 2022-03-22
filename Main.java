@@ -3,7 +3,9 @@ class Main {
   public static void main(String[] args) {
     Scanner Obj = new Scanner(System.in); 
     double a, b, wynik;
-
+    int c=1;
+while(c==1)
+{
   System.out.println("Podaj liczbę A:");
     a = Obj.nextDouble();
     System.out.println("Podaj liczbę B:");
@@ -38,6 +40,7 @@ class Main {
       wynik = a*b;
       System.out.println("Wynik: "+wynik);
     }
+    else System.out.println("Coś poszło nie tak, spróbuj ponownie");
+    }
     }
   }
-
