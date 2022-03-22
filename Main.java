@@ -33,6 +33,11 @@ class Main {
         if(x==true) System.out.println("A jest MAX i wynosi: "+a);
         else System.out.println("B jest MAX i wynosi: "+b);
       }
+    else if(y==4)
+    {
+      wynik = a*b;
+      System.out.println("Wynik: "+wynik);
+    }
     }
   }
 
